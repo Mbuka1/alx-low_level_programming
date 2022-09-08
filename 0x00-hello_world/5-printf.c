@@ -1,4 +1,4 @@
-#!/bin/bash
+#include<stdlib.h>
 #include <stdio.h>
 /**
  * main - main block
