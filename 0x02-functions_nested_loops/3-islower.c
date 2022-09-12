@@ -1,4 +1,4 @@
-#include "stdlib.h"
+#include "betty.h"
 /**
 *Function that checks for lowercase character
 *Prototype: int _islower(int c)
