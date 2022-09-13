@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "betty.h"
 
 /**
  * add - Add two integers
