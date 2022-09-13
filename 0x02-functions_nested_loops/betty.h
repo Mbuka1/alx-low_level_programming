@@ -1,3 +1,6 @@
+#ifndef BETTY_H
+#define BETTY_H
+
 int _putchar(char c);
 int _isupper(int c);
 int _islower(int c);
@@ -11,3 +14,5 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
+
+#endif /* BETTY_H */
