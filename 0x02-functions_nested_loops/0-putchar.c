@@ -1,4 +1,6 @@
-#include "betty.h"
+#define BETTY_H "betty.h"
+...
+#include BETTY_H
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
