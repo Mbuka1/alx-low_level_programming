@@ -1,9 +1,18 @@
 #include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return:0
+ * main - Print "Holberton" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
-int _putchar(char c);{
-return(0);
+int main(void)
+{
+	char k[] = "_putchar";
+	int i = 0;
+	while (k[i] != '\0')
+	{
+		_putchar(k[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
