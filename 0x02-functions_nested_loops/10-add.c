@@ -1,4 +1,5 @@
 #include "main.h"
+#include "betty-style.pl"
 
 /**
  * add - Add two integers
@@ -6,7 +7,7 @@
  * b: int type number
  * Return: result of addition
  */
-int add(int a, int b)
+int add(int, int)
 {
 	return (a + b);
 }
