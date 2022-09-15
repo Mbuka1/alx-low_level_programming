@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
+#include <math.h>
 int largest_number(int a, int b, int c);
 int add(int, int);
 int convert_day(int month, int day);
