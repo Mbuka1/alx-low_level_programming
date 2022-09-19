@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  *writes the character str to stdout
  *a function that prints out the string followed by a new line.
