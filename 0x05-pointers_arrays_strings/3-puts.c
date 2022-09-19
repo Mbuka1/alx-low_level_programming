@@ -1,20 +1,13 @@
-#include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- *writes the character str to stdout
- *a function that prints out the string followed by a new line.
- *@str: a variable that contains the string.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-void _puts(char *str)
+int _putchar(char c)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
-	_putchar('\n');
+	return (write(1, &c, 1));
 }
