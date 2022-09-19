@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - print a string to stdout
+ * _puts - a function that prints out the string followed by a new line.
  * @str: char array string type
  * Description: Can only use _putchar
  */
