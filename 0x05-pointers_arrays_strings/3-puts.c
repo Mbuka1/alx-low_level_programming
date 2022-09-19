@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ *_putchar - writes the character str to stdout
  *_puts - a function that prints out the string followed by a new line.
  *@str: a variable that contains the string.
  *
