@@ -1,4 +1,7 @@
-
+#define MAIN_H
+#ifndef  MAIN_H
+#include <math.h>
+#include <stdio.h>
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -9,4 +12,4 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
-#include <stdio.h>
+#endif /* MAIN_H */
