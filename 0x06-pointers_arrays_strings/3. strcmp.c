@@ -7,7 +7,9 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i, a1, a2;
+	int i;
+	int a1;
+	int a2;
 
 	i = 0;
 	a1 = 0;
@@ -36,5 +38,5 @@ int _strcmp(char *s1, char *s2)
 	{
 		return (s2[a1] * -1);
 	}
-	return (s);
+	return (0);
 }
