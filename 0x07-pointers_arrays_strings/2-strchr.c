@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * _strchr - locate character in a string
  * @s: char array string
  * @c: char to look for
- * Return: Null if char char not found, or pinter to first occurence of char 'c'
+ * Return: NULL if char not found, or pointer to first occurrence of char `c`
  */
+
 char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
