@@ -1,8 +1,21 @@
+#include "main.h"
 #include <stdlib.h>
-int _putchar(char c);
-void *malloc_checked(unsigned int b);
-char *string_nconcat(char *s1, char *s2, unsigned int n);
-int _strlen(char *s);
-void *_calloc(unsigned int nmemb, unsigned int size);
-int *array_range(int min, int max);
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+/**
+ * create_array - create an array of chars, and initialize with specific char
+ * @size: size of array
+ * @c: specific char
+ * Return: char pointer to malloc created memory address or NULL if error
+ */
+char *create_array(unsigned int size, char c)
+{
+	char *a;
+	unsigned int i;
+	if (size == 0)
+		return (NULL);
+	a = malloc(size * sizeof(*a));
+	if (a == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
+		a[i] = c;
+	return (a);
+}
